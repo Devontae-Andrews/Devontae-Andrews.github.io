@@ -730,7 +730,6 @@ Go ahead and save and view your changes! You'll see that `#all-contents` rule is
 
 There are other CSS rules that currently don't do anything because they don't reference existing classes or ids. Two of these rules are the ones with selectors `#nav-ul` and `.nav-li`.
 
-- **10b.** **FIND:** Find the `nav` section in your HTML and specifically the `<ul>` and `<li>` tags inside of it.
 
   > <details>
   > <summary> It should look like this:</summary>
