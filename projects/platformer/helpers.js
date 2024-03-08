@@ -358,7 +358,7 @@ function projectileCollision() {
 }
 
 function deathOfPlayer() {
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = "whitesmoke";
   ctx.fillRect(
     canvas.width / 4,
     canvas.height / 6,
@@ -366,19 +366,19 @@ function deathOfPlayer() {
     canvas.height / 2
   );
   ctx.fillStyle = "black";
-  ctx.font = "800% serif";
+  ctx.font = "300% serif";
   ctx.fillText(
-    "You are dead",
+    "I Really Dont Know How You Died!",
     canvas.width / 4,
-    canvas.height / 6 + canvas.height / 5,
+    canvas.height / 9 + canvas.height / 9,
     (canvas.width / 16) * 14
   );
-  ctx.font = "500% serif";
+  ctx.font = "400% serif";
   ctx.fillText(
-    "Hit any key to restart",
+    "Hit a button to restart bruh",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
-    (canvas.width / 16) * 14
+    (canvas.width / 6) * 14
   );
   if (keyPress.any) {
     keyPress.any = false;
@@ -411,7 +411,7 @@ function playerFrictionAndGravity() {
 
 function drawPlatforms() {
   for (var i = 0; i < platforms.length; i++) {
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "black";
     ctx.fillRect(
       platforms[i].x,
       platforms[i].y,
