@@ -40,8 +40,8 @@ $(function () {
     
     
     createCollectable("database", 700, 300, 20, 0.5)
-    createCollectable("diamond", 240, 100)
-    
+    createCollectable("database", 240, 100)
+    createCollectable("database", 400, 100)
 
     /**
      * Uncomment the loops below to add a "grid" to your platformer game's screen
